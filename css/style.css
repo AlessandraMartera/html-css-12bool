@@ -16,23 +16,23 @@ section {
 
 
 
-
 /* DEBUG */
-.container {
-    min-height: 500px;
-    border: 2px dotted black;
-}
 
-.row {
-    border: 1px rgb(67, 139, 0) solid;
-}
-
-[class*="col"] {
-    height: 50px;
+.blue {
+    min-height: 50px;
     background-color: #006cfa;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     color: #fff;
+    padding: 15px;
     text-align: center;
-    line-height: 45px;
-    vertical-align: middle;
 }
+
+.green {
+    min-height: 20px;
+    background-color: #00fa25;
+    border: 1px solid #006cfa;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
