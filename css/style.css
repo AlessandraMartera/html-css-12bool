@@ -28,11 +28,10 @@ section {
 }
 
 .green {
-    min-height: 20px;
     background-color: #00fa25;
     border: 1px solid #006cfa;
     color: #fff;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
