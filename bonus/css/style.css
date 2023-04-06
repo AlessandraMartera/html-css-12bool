@@ -1,0 +1,65 @@
+/* general settings */
+[class*=col]{
+    /* border:  1px dotted #424242; */
+}
+.container {
+    border: 2px dashed black;
+    height: 100vh;
+    transition: all 3s;
+}
+
+
+/* Colors */
+.red {
+    background-color: red;
+    height: 52px;
+}
+
+.black {
+    background-color: black;
+    height: 52px;
+}
+
+.white {
+    /* background-color: white; */
+    height: 52px;
+    transition: all 2s;
+}
+
+.blue {
+    background-color: blue;
+    height: 50px;
+}
+
+.green{
+    background-color: green;
+    height: 50px;
+}
+
+.poins {
+    opacity: 0;
+}
+
+/* Hover */
+.container:hover {
+    background-color: aquamarine;
+}
+
+.container:active .white {
+    background-color: antiquewhite;
+}
+
+.poins:active {
+    opacity: 1;
+}
+
+
+/* heigth */
+
+.medium {
+    height: 52px;
+}
+
+.small {
+    height: 20px;
+}
